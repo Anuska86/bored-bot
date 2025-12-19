@@ -86,6 +86,12 @@ button:active {
   display: none !important;
 }
 
+/* Visible focus indicator for keyboard users */
+button:focus-visible {
+  outline: 4px solid #333;
+  outline-offset: 4px;
+}
+
 /*FUN MODE*/
 
 /* Animation for the activity text reveal */

@@ -11,11 +11,15 @@
     />
   </head>
   <body>
-    <div class="container">
-      <h1>🤖 Bored Bot</h1>
-      <h2 id="activity-name">Find something fun to do!</h2>
-      <button id="get-activity">I'm bored!</button>
-      <button id="reset-btn" class="hidden">Reset</button>
+    <div class="container" role="main">
+      <h1><span role="img" aria-label="Robot">🤖</span> Bored Bot</h1>
+      <h2 id="activity-name" aria-live="polite">Find something fun to do!</h2>
+      <button id="get-activity" aria-label="Get a new activity idea">
+        I'm bored!
+      </button>
+      <button id="reset-btn" class="hidden" aria-label="Reset to start">
+        Reset
+      </button>
     </div>
     <script src="index.js"></script>
   </body>
