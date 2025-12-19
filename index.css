@@ -40,13 +40,14 @@ h2 {
 /*BUTTON*/
 
 button {
+  height: 100px;
+  width: 100px;
   background-color: #ff4e50;
   color: white;
   border: none;
-  padding: 15px 30px;
   font-size: 1.2rem;
   font-weight: bold;
-  border-radius: 50px;
+  border-radius: 50%;
   cursor: pointer;
   transition: transform 0.2s, background-color 0.2s;
   box-shadow: 0 4px 15px rgba(255, 78, 80, 0.4);
